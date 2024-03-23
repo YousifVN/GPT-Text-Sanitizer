@@ -4,7 +4,7 @@ with open("input_text.txt", "r") as file:
     text = file.read()
     
     # Remove all occurrences of '*' from the text
-    text_without_stars = text.replace("*", "")
+    text_without_stars = text.replace("**", "")
 
 # Open a new file "output_text.txt" in write mode
 with open("output_text.txt", "w") as file:
